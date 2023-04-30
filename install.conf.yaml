@@ -3,8 +3,14 @@
   - neovim
   - discord
   - raycast
+  - kubectl
+  - fluxcd/tap/flux
+  - helm
 
 - link:
     ~/.config/nvim:
       create: true
       path: config/nvim
+
+- create:
+  - ~/.cache/terraform/plugin-cache
